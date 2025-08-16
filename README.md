@@ -6,7 +6,12 @@ This project demonstrates how to **normalize weather temperature data** using tw
 - **Min-Max Normalization** (scales values between 0 and 1)  
 - **Z-score Standardization** (scales values relative to mean and standard deviation)  
 
-The results are visualized and exported for further use in data science or machine learning tasks.  
+you should add:  
+
+```markdown
+Here is the plot generated after normalization:
+
+![Weather Data Plot](plot.png)
 
 ---
 
