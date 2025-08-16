@@ -8,7 +8,7 @@ This project demonstrates how to **normalize weather temperature data** using tw
 
 Here is the original dataset for preview:
 
-![Weather Data Original dataset](Original dataset.png)
+![Weather Data Originaldataset](Original_dataset.png)
 
 Here is the plot generated after normalization:
 
@@ -18,7 +18,7 @@ Here is the plot generated after normalization:
 
 Here is the processed dataset for preview:
 
-![Weather Data processed dataset](processed dataset.png)
+![Weather Data processed dataset](processed_dataset.png)
 
 ## 🔹 Features
 - Load temperature dataset from CSV (`weather_data.csv`)  
