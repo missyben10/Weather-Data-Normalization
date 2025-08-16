@@ -21,3 +21,5 @@ Clone the repository and install requirements:
 git clone https://github.com/missyben10/Weather-Data-Normalization.git
 cd Weather-Data-Normalization
 pip install -r requirements.txt
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/missyben10/Weather-Data-Normalization/blob/main/weather_normalization.py)
