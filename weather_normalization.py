@@ -22,18 +22,20 @@ df['Zscore_Temperature'] = zscore_scaler.fit_transform(df[['Temperature']])
 
 print("\nProcessed Dataset:\n", df.head())
 
-# --- Visualization ---
-plt.figure(figsize=(12,6))
-plt.plot(df['Temperature'], label='Original Temperature', marker='o')
-plt.plot(df['MinMax_Temperature'], label='Min-Max Normalization', marker='s')
-plt.plot(df['Zscore_Temperature'], label='Z-score Standardization', marker='^')
-plt.xlabel('Index')
+plt.figure(figsize=(10, 5))
+# Plot original temperature
+plt.plot(df['Date'], df['Temperature'], label='Original Temperature', marker='o')
+
+# Plot normalized temperature
+plt.plot(df['Date'], df['Normalized_Temperature'], label=f'Normalized Temperature ({method})', marker='s')
+
+plt.xlabel('Date')
 plt.ylabel('Temperature')
-plt.title('Original vs Min-Max vs Z-score')
+plt.title(f'Original vs {method}')
+plt.xticks(rotation=45)   # Rotate dates for readability
 plt.legend()
 plt.grid(True)
 
-# Save the plot as image AND show it
 plt.savefig("plot.png")
 plt.show()
 
