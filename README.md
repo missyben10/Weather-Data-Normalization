@@ -18,6 +18,6 @@ It also visualizes the original vs normalized data and saves the processed datas
 ## 🔹 Installation
 Clone the repository and install requirements:
 ```bash
-git clone https://github.com/yourusername/Weather-Data-Normalization.git
+git clone https://github.com/missyben10/Weather-Data-Normalization.git
 cd Weather-Data-Normalization
 pip install -r requirements.txt
