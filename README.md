@@ -6,11 +6,19 @@ This project demonstrates how to **normalize weather temperature data** using tw
 - **Min-Max Normalization** (scales values between 0 and 1)  
 - **Z-score Standardization** (scales values relative to mean and standard deviation)  
 
+Here is the original dataset for preview:
+
+![Weather Data Original dataset](Original dataset.png)
+
 Here is the plot generated after normalization:
 
 ![Weather Data Plot](plot.png)
 
 ---
+
+Here is the processed dataset for preview:
+
+![Weather Data processed dataset](processed dataset.png)
 
 ## 🔹 Features
 - Load temperature dataset from CSV (`weather_data.csv`)  
