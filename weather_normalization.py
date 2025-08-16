@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from sklearn.preprocessing import MinMaxScaler, StandardScaler
 
 # Load dataset
-df = pd.read_csv("weather_data.csv")  # make sure this file exists
+df = pd.read_csv("weather_data - weather_data.csv")
 
 # Check if 'Temperature' column exists
 if 'Temperature' not in df.columns:
@@ -32,9 +32,6 @@ plt.ylabel('Temperature')
 plt.title('Original vs Min-Max vs Z-score')
 plt.legend()
 plt.grid(True)
-
-# Save the plot as image AND show it
-plt.savefig("plot.png")
 plt.show()
 
 # Save processed data
