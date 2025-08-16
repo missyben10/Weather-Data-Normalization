@@ -1,6 +1,6 @@
 # Weather Data Normalization 
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/missyben10/Weather-Data-Normalization/blob/main/weather_normalization.py)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/missyben10/Weather-Data-Normalization/blob/main/weather_normalization.ipynb)
 
 This project demonstrates how to **normalize weather temperature data** using two common methods:  
 - **Min-Max Normalization** (scales values between 0 and 1)  
